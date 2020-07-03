@@ -133,13 +133,23 @@
     <script>
     var d=document;
     var Content=d.getElementById("content");
-	
+    var articles=[
+	    {
+	        title:"Seerah #1",
+	        URL:"a1",
+		imgSrc:"",
+		description:"This talks about the start of dawah in Makah",
+	    },
+    ];
     var previewBox=function(ImgURL,Title,Description,URL){
         return "<a target='_blank' href='"+URL+"'><div class='videoBox'>    <img src='"+ImgURL+"' class='image'>    <h4>"+ Title+"</h4><p> "+Description+"</p></div></a>";
 		
     };   
     //<img src="https://www.kasandbox.org/programming-images/avatars/aqualine-seed.png">
-    var articleCode="<h1 id='sectionTitle'> Islamic History</h1>"+previewBox("https://www.kasandbox.org/programming-images/avatars/aqualine-seed.png","Seerah #1","This talks about the start of dawah in Makah","islamic%20history/a1");
+    var articleCode="<h1 id='sectionTitle'> Islamic History</h1>";
+	for(var i=0; i<articles.length; i++){
+	articleCode+=previewBox(articles[i].imgSrc,articles[i].title,articles[i].description,articles[i].URL);
+	}
 	Content.innerHTML=articleCode;
     </script>
     </body>
