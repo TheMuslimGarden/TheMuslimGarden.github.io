@@ -76,6 +76,7 @@ ol{
                 color:black;
             }
           .videoBox .image{
+		height:8vw;
                 position:relative;
                 top:10px;
                 float:left;
