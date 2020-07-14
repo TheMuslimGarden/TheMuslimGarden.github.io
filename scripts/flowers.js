@@ -13,7 +13,7 @@ this.flower.style.zIndex=-100000000000000;
 flower.prototype.draw=function(){
 document.body.prependChild(this.flower);
 this.y++;
-if(this.y>100+"%"){this.y="0%";}
+if(this.y>1000){this.y=0;}
 };
 var frameCount=0;
 window.setInterval(function(){
