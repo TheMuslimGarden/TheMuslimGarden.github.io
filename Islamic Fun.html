@@ -26,10 +26,9 @@
     </h1>
     <br>
     <br>
-    <div id="content"></div>
+    <div id="content"><h1 id='sectionTitle'>Islamic Fun</h1></div>
+    <script src="https://themuslimgarden.github.io/scripts/preview.js"></script>
     <script>
-    var d=document;
-    var Content=d.getElementById("content");
     var Fun=[
 	    {
 	    name:"Find the odd one out!",
@@ -44,16 +43,7 @@
             	    imgSrc:"https://docs.google.com/drawings/d/e/2PACX-1vS701_78yLkgQPdNIl40q8h03UqxoLTGOI7_0HBrrHeXm6IKPKTOrArg2JMd-Pxip5Qdb52L13x3Dqh/pub?w=941&h=800",	
 	    },
     ];
-    var previewBox=function(ImgURL,Title,Description,URL){
-        return "<a target='_blank' href='"+URL+"'><div class='videoBox'>    <img src='"+ImgURL+"' class='image'>    <h4>"+ Title+"</h4><p> "+Description+"</p></div></a>";
-		
-    };
-    //<img src="https://www.kasandbox.org/programming-images/avatars/aqualine-seed.png">
-    var iFunCode="<h1 id='sectionTitle'>Islamic Fun</h1> ";
-	 for(var i=0; i<Fun.length; i++){
-	 iFunCode+=previewBox(Fun[i].imgSrc,Fun[i].name,Fun[i].description,Fun[i].URL);
-	 }
-	Content.innerHTML=iFunCode;
+    drawBoxes(Fun);
     </script>
 	    <h3 style="text-align: center;">Islamic Fun: What is halal and what isn't?</h3>
 	    <p style="font-size:1vw; line-height: 200%; margin: 3%; text-align: left;">
