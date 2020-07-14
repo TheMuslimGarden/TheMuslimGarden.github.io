@@ -23,7 +23,7 @@ if(this.y>1000){this.y=0;}
 for(var i=0; i<100; i++){
 flowers.push(new flower(Math.random()*100+"%",i*10, 10+"%",Math.random()*360))}
 
-}
+
 var frameCount=0;
 window.setInterval(function(){
 frameCount++;
