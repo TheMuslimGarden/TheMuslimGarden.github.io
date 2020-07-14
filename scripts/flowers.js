@@ -20,15 +20,15 @@ document.body.appendChild(this.flowerImg);
 
 if(this.y>1000){this.y=0;}
 };
-for(var i=0; i<100; i++){
-flowers.push(new flower(Math.random()*100+"%",i*10, 10+"%",Math.random()*360))}
-
-
 var frameCount=0;
 window.setInterval(function(){
 frameCount++;
+if(frameCount>=100){	
+if(flowers.length<100){flowers.push(new flower(Math.random()*100+"%",0, 10+"%",Math.random()*360))}	
+                                    frameCount=0;}	
 for(var i=0; i<flowers.length; i++){
 flowers[i].draw();
+  flowers[i].r+=1;	
   if(flowers[i].y>1000){flowers[i].y=0;}
-}
-                      },1000/60);
+}	
+                      },1000/60);	
