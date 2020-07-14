@@ -12,7 +12,7 @@ this.flower.style.zIndex=-100000000000000;
 };
 flower.prototype.draw=function(){
 document.body.prependChild(this.flower);
-this.y--;
+this.y++;
 if(this.y>100+"%"){this.y="0%";}
 };
 var frameCount=0;
