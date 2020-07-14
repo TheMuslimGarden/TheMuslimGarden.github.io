@@ -5,6 +5,6 @@ var d=document;
     };
     function drawBoxes(array){
     for(var i=0; i<array.length; i++){
-    d.body.innerHTML+=previewBox(array.imgSrc,array.name,array.description,array.URL);
+    Content.innerHTML+=previewBox(array.imgSrc,array.name,array.description,array.URL);
     }
     }
