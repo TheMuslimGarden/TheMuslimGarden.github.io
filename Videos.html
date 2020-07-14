@@ -26,10 +26,9 @@
     </h1>
     <br>
     <br>
-    <div id="content"></div>
+    <div id="content"><h1 id='sectionTitle'>Videos</h1></div>
+    <script src="https://themuslimgarden.github.io/scripts/preview.js"></script>
     <script>
-    var d=document;
-    var Content=d.getElementById("content");
     var Videos=[
 	    {
 	    name:"As Hab Al-Ukhdud",
@@ -44,16 +43,7 @@
             imgSrc:"https://i.ytimg.com/vi/BkyovmanXdY/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAHdUrpFUv-q2k64JyNmVlBbcAoNA",
 	    },
     ];
-    var previewBox=function(ImgURL,Title,Description,URL){
-        return "<a target='_blank' href='"+URL+"'><div class='videoBox'>    <img src='"+ImgURL+"' class='image'>    <h4>"+ Title+"</h4><p> "+Description+"</p></div></a>";
-		
-    };
-    //<img src="https://www.kasandbox.org/programming-images/avatars/aqualine-seed.png">
-    var VideoCode="<h1 id='sectionTitle'>Videos</h1>";
-    for(var i=0; i<Videos.length; i++){
-    VideoCode+=previewBox(Videos[i].imgSrc,Videos[i].name,Videos[i].description,Videos[i].URL);
-    }
-    Content.innerHTML=VideoCode;
+    drawBoxes(Videos);
     </script>
     </body>
     
