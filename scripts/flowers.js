@@ -28,7 +28,7 @@ if(flowers.length<100){flowers.push(new flower(Math.random()*100+"%",0, 10+"%",M
                                     frameCount=0;}
 for(var i=0; i<flowers.length; i++){
 flowers[i].draw();
-  flowers[i].y+=1;
+  flowers[i].y+=5;
   flowers[i].r+=1;
   if(flowers[i].y>1000){flowers[i].y=0;}
 }
