@@ -8,7 +8,7 @@ this.flower.style.left=x;
 this.flower.style.width=s;
 this.flower.style.transform="rotate("+r+"deg)";
 this.flower.src="https://www.khanacademy.org/computer-programming/flower-blue/6189789225500672/latest.png";
-this.flower.zIndex=-100000000000000;
+this.flower.style.zIndex=-100000000000000;
 };
 flower.prototype.draw=function(){
 document.body.prependChild(this.flower);
