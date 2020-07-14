@@ -1,16 +1,21 @@
 var flowers=[];
-var flower=function(x,y,s,r,col){
+var flower=function(x,y,s,r){
 this.flower=document.createElement("img");
 this.y=y;
-this.flower.style.position="fixed";
-this.flower.style.top=this.y;
-this.flower.style.left=x;
-this.flower.style.width=s;
-this.flower.style.transform="rotate("+r+"deg)";
-this.flower.src="https://www.khanacademy.org/computer-programming/flower-blue/6189789225500672/latest.png";
-this.flower.style.zIndex=-2;
+this.x=x;
+this.s=s;
+this.r=r;
+
 };
 flower.prototype.draw=function(){
+this.flower.style.position="fixed";
+this.flower.style.top=this.y;
+this.flower.style.left=this.x;
+this.flower.style.width=this.s;
+this.flower.style.transform="rotate("+this.r+"deg)";
+this.flower.src="https://www.khanacademy.org/computer-programming/flower-blue/6189789225500672/latest.png";
+this.flower.style.zIndex=-2;
+this.r+=1;
 document.body.appendChild(this.flower);
 this.y++;
 if(this.y>1000){this.y=0;}
