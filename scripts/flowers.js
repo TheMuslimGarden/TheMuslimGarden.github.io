@@ -11,7 +11,7 @@ this.flower.src="https://www.khanacademy.org/computer-programming/flower-blue/61
 this.flower.style.zIndex=-100000000000000;
 };
 flower.prototype.draw=function(){
-document.body.prependChild(this.flower);
+document.body.appendChild(this.flower);
 this.y++;
 if(this.y>1000){this.y=0;}
 };
