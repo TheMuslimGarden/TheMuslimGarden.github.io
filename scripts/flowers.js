@@ -18,6 +18,7 @@ this.flowerImg.src="https://www.khanacademy.org/computer-programming/flower-blue
 document.body.appendChild(this.flowerImg);
 };
 
+window.setInterval(function(){
 var frameCount=0;
 
 frameCount++;
@@ -30,5 +31,5 @@ flowers[i].draw();
   flowers[i].y+=1;
   flowers[i].r+=1;
   if(flowers[i].y>1000){flowers[i].y=0;}
-};
-},1000/60);
+}
+                      },1000/60);
