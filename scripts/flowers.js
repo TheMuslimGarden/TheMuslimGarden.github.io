@@ -19,10 +19,10 @@ var frameCount=0;
 window.setInterval(function(){
 frameCount++;
 if(frameCount===100){
-if(flowers.length<100){flowers.push(new flower(Math.random(0+"%",100+"%"),0+"%", "10vw",Math.random(0,360));}
+if(flowers.length<100){flowers.push(new flower(Math.random()*100 +"%",0+"%", "10vw",Math.random()*360);}
                                     frameCount=0;
 }
 for(var i=0; i<flowers.length; i++;){
 flowers[i].draw;
 };
-},1000/60)
+},1000/60);
