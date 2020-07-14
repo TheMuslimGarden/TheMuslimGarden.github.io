@@ -14,19 +14,19 @@ this.flowerImg.style.left=this.x;
 this.flowerImg.style.width=this.s;
 this.flowerImg.style.transform="rotate("+this.r+"deg)";
 this.flowerImg.src="https://www.khanacademy.org/computer-programming/flower-blue/6189789225500672/latest.png";
-//this.flowerImg.style.zIndex=-2;
+this.flowerImg.style.zIndex=-2;
+this.r+=1;
 document.body.appendChild(this.flowerImg);
+this.y++;
+if(this.y>1000){this.y=0;}
 };
-
-window.setInterval(function(){
 var frameCount=0;
-
+window.setInterval(function(){
 frameCount++;
 if(frameCount>=100){
-if(flowers.length<100){flowers.push(new flower(Math.random()*100+"%",0, 10+"%",Math.random()*360);}
-                                    frameCount=0;
-}
-for(var i=0; i<flowers.length; i++;){
+if(flowers.length<100){flowers.push(new flower(Math.random()*100+"%",0, 10+"%",Math.random()*360))}
+                                    frameCount=0;}
+for(var i=0; i<flowers.length; i++){
 flowers[i].draw();
   flowers[i].y+=1;
   flowers[i].r+=1;
