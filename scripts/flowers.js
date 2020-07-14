@@ -18,8 +18,9 @@ if(this.y>100+"%"){this.y="0%";}
 var frameCount=0;
 window.setInterval(function(){
 frameCount++;
-if(frameCount%100===0){
+if(frameCount===100){
 if(flowers.length<100){flowers.push(new flower(Math.random(0+"%",100+"%"),0+"%", "10vw",Math.random(0,360));}
+                                    frameCount=0;
 }
 for(var i=0; i<flowers.length; i++;){
 flowers[i].draw;
