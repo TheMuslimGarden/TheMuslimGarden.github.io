@@ -66,7 +66,7 @@ ol{
 		  margin-left:50px;
 		  }
 		  #content{ 
-			  background:rgba(217, 250, 222,50);
+			  background:rgba(217, 250, 222, 0.7);
 		  }
           .videoBox{
                 border-top: 1px solid black;
@@ -75,6 +75,7 @@ ol{
                 padding:5px;
                 color:black;
                 width:85vw;
+            }
             }
 			#header a{
 			margin:0.275vw;
