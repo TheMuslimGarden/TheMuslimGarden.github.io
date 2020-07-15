@@ -4,16 +4,16 @@ ol{
             #header{
                 position:fixed;
                 color:black;
-                /*Replace with url("https://www.islamicwisdom.net/wp-content/uploads/2012/07/LJ2m3L4.jpg")*/
+                
                 background:url("https://docs.google.com/drawings/d/e/2PACX-1vTfBpqXfUueNPyolX7rFweyx2hHhK2IA1HAOVa2G_hqwCR32l8XGIuQl57_yQSPaJH6jUYhkagdGeZ2/pub?w=959&amp;h=182");
 				background-repeat:no-repeat;
-				background-position:center;
+				background-position:0px,0px;
 				background-size:100%;
 				font-size:1.233vw;
 				padding-top:15px;
 				padding-bottom:5.7px;
-				padding-left:14.1vw;
-				padding-right:14.1vw;
+				padding-left:16.1vw;
+				padding-right:16.1vw;
 				top:-20px;
 				left:0vw;
 				z-index:100;
@@ -70,7 +70,7 @@ ol{
 		  }
           .videoBox{
                 border-top: 1px solid black;
-		border-bottom: 1px solid black;
+				border-bottom: 1px solid black;
                 text-align:left;
                 padding:5px;
                 color:black;
