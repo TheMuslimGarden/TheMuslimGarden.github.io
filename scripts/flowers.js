@@ -24,7 +24,7 @@ var frameCount=0;
 window.setInterval(function(){
 frameCount++;
 if(frameCount>=100){	
-if(flowers.length<100){flowers.push(new flower(Math.random()*100+"%",Math.random()*1000, 10+"%",Math.random()*360))}	
+if(flowers.length<30){flowers.push(new flower(Math.random()*100+"%",Math.random()*1000, 10+"%",Math.random()*360))}	
                                     frameCount=0;}	
 for(var i=0; i<flowers.length; i++){
 flowers[i].draw();
