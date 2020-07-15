@@ -1,10 +1,11 @@
 var flowers=[];
-var flower=function(x,y,s,r){
+var flower=function(x,y,s,r,col){
 this.flowerImg=document.createElement("img");
 this.y=y;
 this.x=x;
 this.s=s;
 this.r=r;
+this.col=Math.floor(col);
 };
 flower.prototype.draw=function(){
  this.y+=5;
@@ -13,7 +14,13 @@ this.flowerImg.style.top=this.y+"px";
 this.flowerImg.style.left=this.x;
 this.flowerImg.style.width=this.s;
 this.flowerImg.style.transform="rotate("+this.r+"deg)";
-this.flowerImg.src="https://www.khanacademy.org/computer-programming/flower-blue/6189789225500672/latest.png";
+if(this.col===0){
+this.flowerImg.src="https://www.khanacademy.org/computer-programming/red-flower/5985129101344768/5161084730556416.png";
+}else if(this.col===1){
+ this.flowerImg.src="https://www.khanacademy.org/computer-programming/flower-blue/6189789225500672/latest.png";
+}else {
+this.flowerImg.src="https://www.khanacademy.org/computer-programming/white-flower/4512571428519936/4582073327501312.png";
+}
 this.flowerImg.style.zIndex=-2;
 this.r+=1;
 document.body.appendChild(this.flowerImg);
