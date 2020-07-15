@@ -65,6 +65,9 @@ ol{
 		  #content p{
 		  margin-left:50px;
 		  }
+		  #content{ 
+			  background:rgba(217, 250, 222,50);
+		  }
           .videoBox{
                 border-top: 1px solid black;
 				border-bottom: 1px solid black;
