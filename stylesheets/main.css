@@ -11,7 +11,7 @@ ol{
 				background-size:100%;
 				font-size:1.233vw;
 				padding-top:15px;
-				padding-bottom:15px;
+				padding-bottom:4.2vw;
 				padding-left:16.1vw;
 				padding-right:16.1vw;
 				top:-20px;
@@ -21,7 +21,7 @@ ol{
             }
 			
             #title{
-                font-size:2.5vw;
+                font-size:5vw;
             }
 			
             body{
@@ -46,9 +46,11 @@ ol{
             h1 a{
                 color:black;
                 text-decoration:none;
+                position:relative;
+                top:3vw;
             }
         a#home:hover, a#Videos:hover, a#islamic-history:hover, a#daily-r:hover, a#daily-a:hover, a#i-games:hover, a#help-the-ummah:hover, a#about-us:hover{
-                color:white;
+                color:rgb(41, 0, 255);
                 font-style:italic;
 				cursor:pointer;
             }
