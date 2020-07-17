@@ -50,7 +50,7 @@ ol{
                 top:3vw;
             }
         a#home:hover, a#Videos:hover, a#islamic-history:hover, a#daily-r:hover, a#daily-a:hover, a#i-games:hover, a#help-the-ummah:hover, a#about-us:hover{
-                color:rgb(41, 0, 255);
+                color:rgb(83, 5, 160);
                 font-style:italic;
 				cursor:pointer;
             }
