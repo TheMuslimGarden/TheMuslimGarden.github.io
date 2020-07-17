@@ -25,7 +25,7 @@ this.flowerImg.style.zIndex=-2;
 this.r+=1;
 document.body.appendChild(this.flowerImg);
 
-if(this.y>1000){this.y=0;}
+if(this.y>1000){this.y=0; this.x=Math.random()*100+"%";}
 };
 var frameCount=0;
 window.setInterval(function(){
