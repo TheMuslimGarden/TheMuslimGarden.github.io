@@ -15,11 +15,11 @@ this.flowerImg.style.left=this.x;
 this.flowerImg.style.width=this.s;
 this.flowerImg.style.transform="rotate("+this.r+"deg)";
 if(this.col===0){
-this.flowerImg.src="https://www.khanacademy.org/computer-programming/red-flower/5985129101344768/5161084730556416.png";
+this.flowerImg.src="https://themuslimgarden.github.io/images/Blue%20Flower.png";
 }else if(this.col===1){
- this.flowerImg.src="https://www.khanacademy.org/computer-programming/flower-blue/6189789225500672/latest.png";
+ this.flowerImg.src="https://themuslimgarden.github.io/images/Red%20Flower.png";
 }else {
-this.flowerImg.src="https://www.khanacademy.org/computer-programming/white-flower/4512571428519936/4582073327501312.png";
+this.flowerImg.src="https://themuslimgarden.github.io/images/White%20Flower.png";
 }
 this.flowerImg.style.zIndex=-2;
 this.r+=1;
