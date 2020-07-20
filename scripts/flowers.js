@@ -28,7 +28,7 @@ document.body.appendChild(this.flowerImg);
 if(this.y>1000){this.y=Math.random()*-500; this.x=Math.random()*100+"%";}
 };
 var frameCount=0;
-window.setInterval(function(){
+var drawAllTheFlowers=function(){
 frameCount++;
 if(frameCount>=100){	
 if(flowers.length<30){flowers.push(new flower(Math.random()*100+"%",Math.random()*1000, 10+"%",Math.random()*360,Math.random()*3))}	
@@ -38,4 +38,6 @@ flowers[i].draw();
   flowers[i].r+=1;	
   if(flowers[i].y>1000){flowers[i].y=0;}
 }	
-                      },1000/60);	
+window.requestAnimtionFrame(drawAllTheFlowers);                      
+};
+drawAllTheFlowers();
