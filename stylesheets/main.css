@@ -11,7 +11,7 @@ ol{
 				background-size:100%;
 				font-size:1.233vw;
 				padding-top:15px;
-				padding-bottom:4.2vw;
+				padding-bottom:3.2vw;
 				padding-left:16.1vw;
 				padding-right:16.1vw;
 				top:-20px;
@@ -66,7 +66,7 @@ ol{
 		  margin-left:50px;
 		  }
 		  #content{ 
-			  background:rgba(217, 250, 222, 0.75);
+		      background:rgba(217, 250, 222, 0.75);
 		  }
           .videoBox{
                 border-top: 5px solid transparent;
@@ -76,10 +76,9 @@ ol{
                 width:85vw;
                 border-image:url("https://docs.google.com/drawings/d/e/2PACX-1vRT3_teUwoV18h61DSo-jyBERKTG5tSNVo8-J5hRoxOeNbtK_jmXpEx2ige1ik7byNLRTQOipQxZnK8/pub?w=100&amp;h=100") 20% round;
             }
+      	    #header a{
+		margin:0.275vw;
             }
-			#header a{
-			margin:0.275vw;
-			}
             .videoBox a{
                 color:black;
             }
@@ -91,20 +90,23 @@ ol{
                 margin-right:10px;
                 margin-bottom:10px;
             }
-			.centered-text{
-			text-align:center;
-			}
-			@keyframes fadeIn{
-			from{
+	    @keyframes fadeIn{
+		from{
 			opacity:0;
-			}
-			to{
+		}
+		to{
 			opacity:1;
-			}
-			}
-			#content{
-			animation-name:fadeIn;
-			animation-fill-mode:forwards;
-			animation-duration:1s;
-			animation-timing-function:linear;
-			}
+		}
+	   }
+	   .selectionBar{
+		background-color:rgb(247, 237, 181);
+		padding:1vw;
+		padding-left:50%;
+		padding-right:50%;
+	    }
+	    #content{
+		animation-name:fadeIn;
+		animation-fill-mode:forwards;
+		animation-duration:1s;
+		animation-timing-function:linear;
+	    }
