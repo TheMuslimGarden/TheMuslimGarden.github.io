@@ -1,4 +1,4 @@
-# TheMuslimGarden.github.io
+# The Muslim Garden
 A place for Muslims to recharge their faith
 
 This website was created June-July 2020. The theme is garden like. The colors include: rgb(217, 250, 222)(The background. Light green) rgb(166,255,179)(The headers. grassy green) & rgb(247,237,181)(The Selection Bar. Light brown.)
