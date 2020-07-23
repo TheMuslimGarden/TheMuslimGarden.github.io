@@ -33,7 +33,7 @@ frameCount++;
 if(frameCount>=100){	
 if(flowers.length<30){flowers.push(new flower(Math.random()*100+"%",Math.random()*1000, 10+"%",Math.random()*360,Math.random()*3))}	
                                     frameCount=0;}	
-for(var i=0; i<flowers.length; i++){
+for(var i=flowers.length; i>0; i--){
 flowers[i].draw();
   flowers[i].r+=1;	
   if(flowers[i].y>1000){flowers[i].y=0;}
