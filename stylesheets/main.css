@@ -67,6 +67,8 @@ ol{
 		  }
 		  #content{ 
 		      background:rgba(217, 250, 222, 0.9);
+		      position:relative;
+		      top:5vw;
 		  }
           .videoBox{
                 border-top: 5px solid transparent;
