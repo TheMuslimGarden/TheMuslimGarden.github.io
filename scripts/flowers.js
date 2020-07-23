@@ -8,9 +8,9 @@ this.r=r;
 this.col=Math.floor(col);
 };
 flower.prototype.draw=function(){
- this.y+=5;
+ this.y+=1;
 this.flowerImg.style.position="fixed";
-this.flowerImg.style.top=this.y+"px";
+this.flowerImg.style.top=this.y+"%";
 this.flowerImg.style.left=this.x;
 this.flowerImg.style.width=this.s;
 this.flowerImg.style.transform="rotate("+this.r+"deg)";
@@ -25,7 +25,7 @@ this.flowerImg.style.zIndex=-2;
 this.r+=1;
 document.body.appendChild(this.flowerImg);
 
-if(this.y>1000){this.y=Math.random()*-500; this.x=Math.random()*100+"%";}
+if(this.y>100){this.y=Math.random()*-50; this.x=Math.random()*100+"%";}
 };
 var frameCount=0;
 var drawAllTheFlowers=function(){
