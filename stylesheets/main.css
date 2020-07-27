@@ -1,127 +1,143 @@
-ol{
-		text-align:left;
-		}
-            #header{
-                position:fixed;
-                color:black;
-                
-                background:url("https://themuslimgarden.github.io/images/Header%20for%20Website.png");
-				background-repeat:no-repeat;
-				background-position:center;
-				background-size:100%;
-				font-size:1.233vw;
-				padding-top:15px;
-				padding-bottom:3.2vw;
-				padding-left:16.1vw;
-				padding-right:16.1vw;
-				top:-20px;
-				left:0vw;
-				z-index:100;
-				width:70%;
-            }
-			
-            #title{
-                font-size:5vw;
-            }
-#title:hover{
-color:blue;
+ol {
+    text-align: left;
 }
-			
-            body{
-				font-family:'Merriweather';
-				font-size:1.5vw;
-				background:rgb(217, 250, 222);
-        }
-		h1{
-		text-align:center;
-		}
-        p{
-			text-align:left;
-        }
-        .article-image{
-            float:right;
-        }
-		.article{
-		position:relative;
-		left:1vw;
-		width:90vw;
-		}
-            h1 a{
-                color:black;
-                text-decoration:none;
-            }
-        a#home:hover, a#Videos:hover, a#islamic-history:hover, a#daily-r:hover, a#daily-a:hover, a#i-games:hover, a#help-the-ummah:hover, a#about-us:hover{
-                color:rgb(83, 5, 160);
-                font-style:italic;
-				cursor:pointer;
-            }
-          #sectionTitle{
-		  margin-top:2em;
-              font-size:4vw;
-			  font-family: 'Roboto', sans-serif;
-			  background:rgb(166, 255, 179);
-			  
-          } 
-		  p{
-		  text-align:left;
-		  }
-		  #content p{
-		  margin-left:50px;
-		  }
-		  #content{ 
-		      background:rgba(217, 250, 222, 0.9);
-		      position:relative;
-		      top:5vw;
-		  }
-          .videoBox{
-                border-top: 5px solid transparent;
-                text-align:left;
-                padding:5px;
-                color:black;
-                width:85vw;
-                border-image:url("https://docs.google.com/drawings/d/e/2PACX-1vRT3_teUwoV18h61DSo-jyBERKTG5tSNVo8-J5hRoxOeNbtK_jmXpEx2ige1ik7byNLRTQOipQxZnK8/pub?w=100&amp;h=100") 20% round;
-            }
-      	    #header a{
-		margin:1.2vw;
-            }
-            .videoBox a{
-                color:black;
-            }
-          .videoBox .image{
-		height:8vw;
-                position:relative;
-                top:10px;
-                float:left;
-                margin-right:10px;
-                margin-bottom:10px;
-            }
-	    @keyframes fadeIn{
-		from{
-			opacity:0;
-		}
-		to{
-			opacity:1;
-		}
-	   }
-	   .selectionBar{
-	   	text-align:center;
-		background-color:rgb(247, 237, 181);
-		width:150%;
-		position:absolute;
-		top:10vw;
-		left:-25%;
-		padding-top:1vw;
-		padding-bottom:1vw;
-		}
-	    #content{
-		animation-name:fadeIn;
-		animation-fill-mode:forwards;
-		animation-duration:1s;
-		animation-timing-function:linear;
-	    }
-.Arabic{
-text-align:right;
+
+#header {
+    position: fixed;
+    color: black;
+    background: url("https://themuslimgarden.github.io/images/Header%20for%20Website.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    font-size: 1.233vw;
+    padding-top: 15px;
+    padding-bottom: 3.2vw;
+    padding-left: 16.1vw;
+    padding-right: 16.1vw;
+    top: -20px;
+    left: 0vw;
+    z-index: 100;
+    width: 70%;
 }
-.center{
-text-align:center;
+
+#title {
+    font-size: 5vw;
+}
+
+body {
+    font-family: 'Merriweather';
+    font-size: 1.5vw;
+    background: rgb(217, 250, 222);
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: left;
+}
+
+.article-image {
+    float: right;
+}
+
+.article {
+    position: relative;
+    left: 1vw;
+    width: 90vw;
+}
+
+h1 a {
+    color: black;
+    text-decoration: none;
+}
+
+a#home:hover, a#Videos:hover, a#islamic-history:hover, a#daily-r:hover, a#daily-a:hover, a#i-games:hover, a#help-the-ummah:hover, a#about-us:hover {
+    color: rgb(83, 5, 160);
+    font-style: italic;
+    cursor: pointer;
+}
+
+#sectionTitle {
+    margin-top: 2em;
+    font-size: 4vw;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(166, 255, 179);
+}
+
+p {
+    text-align: left;
+}
+
+#content p {
+    margin-left: 50px;
+}
+
+#content {
+    background: rgba(217, 250, 222, 0.9);
+    position: relative;
+    top: 5vw;
+}
+
+.videoBox {
+    border-top: 5px solid transparent;
+    text-align: left;
+    padding: 5px;
+    color: black;
+    width: 85vw;
+    border-image: url("https://docs.google.com/drawings/d/e/2PACX-1vRT3_teUwoV18h61DSo-jyBERKTG5tSNVo8-J5hRoxOeNbtK_jmXpEx2ige1ik7byNLRTQOipQxZnK8/pub?w=100&amp;h=100") 20% round;
+}
+
+#header a {
+    margin: 1.2vw;
+}
+
+.videoBox a {
+    color: black;
+}
+
+.videoBox .image {
+    height: 8vw;
+    position: relative;
+    top: 10px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.selectionBar {
+    text-align: center;
+    background-color: rgb(247, 237, 181);
+    width: 150%;
+    position: absolute;
+    top: 10vw;
+    left: -25%;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+#content {
+    animation-name: fadeIn;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+.Arabic {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
 }
