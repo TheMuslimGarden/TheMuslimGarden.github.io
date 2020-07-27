@@ -23,6 +23,9 @@ ol{
             #title{
                 font-size:5vw;
             }
+#title:hover{
+color:blue;
+}
 			
             body{
 				font-family:'Merriweather';
