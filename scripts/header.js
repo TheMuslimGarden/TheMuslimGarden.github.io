@@ -8,4 +8,4 @@ a1.appendChild(document.createTextNode("|About Us|"));
 
 footer.appendChild(a1);
 
-document.body.appendChild(footer);
+document.getElementById("content").appendChild(footer);
