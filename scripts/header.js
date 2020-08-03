@@ -7,5 +7,5 @@ a1.setAttribute("href","https://themuslimgarden.github.io/About Us");
 a1.appendChild(document.createTextNode("|About Us|"));
 
 footer.appendChild(a1);
-
-document.getElementById("content").appendChild(footer);
+var content=document.getElementById("content");
+content.appendChild(footer);
