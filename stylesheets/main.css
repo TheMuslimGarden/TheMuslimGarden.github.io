@@ -20,6 +20,15 @@ ol {
     width: 70%;
 }
 
+footer{
+    background-color:rgb(166, 255, 179);
+    color:white;
+}
+
+footer a:hover{
+color:gray;
+}
+
 #title {
     font-size: 5vw;
 }
