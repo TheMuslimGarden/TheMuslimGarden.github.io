@@ -23,6 +23,7 @@ ol {
 footer{
     background-color:rgb(166, 255, 179);
     color:white;
+    z-Index:30;
 }
 footer a{
     color:white; 
