@@ -22,11 +22,13 @@ ol {
 
 footer{
     background-color:rgb(166, 255, 179);
+    text-align:center;
+}
+footer a{
     color:white;
 }
-
 footer a:hover{
-color:gray;
+    color:gray;
 }
 
 #title {
