@@ -22,10 +22,11 @@ ol {
 
 footer{
     background-color:rgb(166, 255, 179);
-    text-align:center;
+    color:white;
 }
 footer a{
-    color:white;
+    color:white; 
+    text-align:center;
 }
 footer a:hover{
     color:gray;
