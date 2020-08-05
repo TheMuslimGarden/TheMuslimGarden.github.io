@@ -4,7 +4,7 @@ var flower = function(x, y, s, r, col) {
     this.y = y;
     this.x = x;
     this.s = s;
-    this.r = r;
+    this.r = r%360;
     this.col = Math.floor(col);
 };
 flower.prototype.draw = function() {
