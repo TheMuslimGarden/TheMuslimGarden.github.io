@@ -12,7 +12,7 @@ ol {
     font-size: 1.233vw;
     padding-top: 15px;
     padding-bottom: 3.2vw;
-    padding-left: 16.1vw; 
+    padding-left: 16.1vw;
     padding-right: 16.1vw;
     top: -20px;
     left: 0vw;
@@ -20,25 +20,38 @@ ol {
     width: 70%;
 }
 
-footer{
-    background-color:rgb(166, 255, 179);
-    color:white;
-    z-Index:30;
+footer {
+    background-color: rgb(166, 255, 179);
+    color: white;
+    z-Index: 30;
+    position: relative;
+    top: 5vw;
+    left: -0.5vw;
+    text-align: center;
+    width: 100%;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
 }
-footer a{
-    color:white; 
-    text-align:center;
+
+footer a {
+    color: black;
+    text-align: center;
 }
-footer a:hover{
-    color:gray;
+
+footer a:hover {
+    color: gray;
 }
 
 #title {
     font-size: 5vw;
 }
-#title:hover{
-text-decoration:underline;
+
+#title:hover {
+    text-decoration: underline;
 }
+
 body {
     font-family: 'Merriweather';
     font-size: 1.5vw;
