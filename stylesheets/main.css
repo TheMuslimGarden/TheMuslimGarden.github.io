@@ -112,6 +112,7 @@ p {
     border-top: 5px solid transparent;
     text-align: left;
     padding: 5px;
+    padding-right:11vw;
     color: black;
     width: 85vw;
     border-image: url("https://docs.google.com/drawings/d/e/2PACX-1vRT3_teUwoV18h61DSo-jyBERKTG5tSNVo8-J5hRoxOeNbtK_jmXpEx2ige1ik7byNLRTQOipQxZnK8/pub?w=100&amp;h=100") 20% round;
