@@ -1,0 +1,1 @@
+document.body.innerHTML+='<script src="https://themuslimgarden.github.io/scripts/header.js"></script>\n <script src="https://themuslimgarden.github.io/scripts/preview.js"></script>\n <script src="https://themuslimgarden.github.io/scripts/flowers.js"></script>';
