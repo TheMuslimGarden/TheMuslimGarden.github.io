@@ -82,7 +82,7 @@ h1 a {
     text-decoration: none;
 }
 
-.Header-Links{
+.Header-Links:hover{
     color: rgb(83, 5, 160);
     font-style: italic;
     cursor: pointer;
