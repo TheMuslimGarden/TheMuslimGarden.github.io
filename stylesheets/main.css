@@ -12,12 +12,10 @@ ol {
     font-size: 1.233vw;
     padding-top: 15px;
     padding-bottom: 3.2vw;
-    padding-left: 16.1vw;
-    padding-right: 16.1vw;
     top: -20px;
     left: 0vw;
     z-index: 100;
-    width: 70%;
+    width: 100%;
 }
 
 footer {
@@ -45,7 +43,7 @@ footer a:hover {
 }
 
 #title {
-    font-size: 5vw;
+    font-size: 7vw;
 }
 
 #title:hover {
@@ -73,7 +71,7 @@ p {
 
 .article {
     position: relative;
-    left: 1vw;
+    left:-7vw;
     width: 90vw;
 }
 
@@ -119,9 +117,7 @@ p {
     border-image: url("https://docs.google.com/drawings/d/e/2PACX-1vRT3_teUwoV18h61DSo-jyBERKTG5tSNVo8-J5hRoxOeNbtK_jmXpEx2ige1ik7byNLRTQOipQxZnK8/pub?w=100&amp;h=100") 20% round;
 }
 
-#header a {
-    margin: 1.2vw;
-}
+
 
 .videoBox a {
     color: black;
@@ -149,10 +145,10 @@ p {
 .selectionBar {
     text-align: center;
     background-color: rgb(247, 237, 181);
-    width: 150%;
+    width: 100%;
     position: absolute;
     top: 10vw;
-    left: -25%;
+    left: 0%;
     padding-top: 1vw;
     padding-bottom: 1vw;
 }
