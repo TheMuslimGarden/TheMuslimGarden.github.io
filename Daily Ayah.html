@@ -29,8 +29,8 @@
 
 	<div id="content">
 		<h1 id='sectionTitle'>Daily Ayah</h1>
-		<p style="text-align:center; font-size:4vw;" id=""></p>
-		<p style="text-align:center;" id=""></p>
+		<p style="text-align:center; font-size:4vw;" id="Ayah"></p>
+		<p style="text-align:center;" id="Ayah-Def"></p>
 	</div>
 	</div>
 	<script>
@@ -77,10 +77,14 @@
 			};
 		};
 
+		var date=new Date();
 
-		var random1 = Math.seed(42);
+		var random1 = Math.seed(date.getDay+date.getMonth*30+date.getFullYear*365);
 		var random2 = Math.seed(random1());
 		Math.random = Math.seed(random2());
+
+		$("#Ayah").text(Ayat[Math.random()*Ayat.length].ayah);
+		$("#Ayah-def").text(Ayat[Math.random()*Ayat.length].def);
 	</script>
 	<script src="https://themuslimgarden.github.io/scripts/flowers.js"></script>
 	<script src="https://themuslimgarden.github.io/scripts/header.js"></script>
