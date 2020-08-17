@@ -83,8 +83,8 @@
 		var random2 = Math.seed(random1());
 		Math.random = Math.seed(random2());
 
-		$("#Ayah").text(Ayat[Math.random()*Ayat.length].ayah);
-		$("#Ayah-def").text(Ayat[Math.random()*Ayat.length].def);
+		$("#Ayah").text(Ayat[Math.round(Math.random()*Ayat.length)].ayah);
+		$("#Ayah-def").text(Ayat[Math.round(Math.random()*Ayat.length)].def);
 	</script>
 	<script src="https://themuslimgarden.github.io/scripts/flowers.js"></script>
 	<script src="https://themuslimgarden.github.io/scripts/header.js"></script>
