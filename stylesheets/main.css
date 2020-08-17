@@ -128,7 +128,7 @@ p {
     height: 7.5vw;
     position: relative;
     top: 10px;
-    /*float: left;*/
+    float: left;
     margin-right: 10px;
     margin-bottom: 10px;
 }
