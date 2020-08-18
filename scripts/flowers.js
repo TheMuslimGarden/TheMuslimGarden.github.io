@@ -23,7 +23,7 @@ flower.prototype.draw = function () {
     }
     this.flowerImg.style.zIndex = -2;
     this.r += 1;
-    document.body.appendChild(this.flowerImg);
+    document.getElementsByTagName("html")[0].appendChild(this.flowerImg);
 
     if (this.y > 100) {
         this.y = Math.random() * -50;

@@ -54,7 +54,7 @@ footer a:hover {
 body {
     font-family: 'Merriweather';
     /*font-size: 1.5vw;*/
-    background: rgb(217, 250, 222);
+    background: rgba(217, 250, 222, 0.95);
 }
 
 h1 {
@@ -91,6 +91,9 @@ h1 a {
     font-size: 4vw;
     font-family: 'Roboto', sans-serif;
     background: rgb(166, 255, 179);
+    width:120%;
+    position:relative;
+    left:-10%;
 }
 
 p {
