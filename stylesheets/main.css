@@ -97,10 +97,6 @@ p {
     text-align: left;
 }
 
-#content p {
-    margin-left: 50px;
-}
-
 #content {
     background: rgba(217, 250, 222, 0.95);
     position: relative;
@@ -119,11 +115,11 @@ p {
 }
 
 .previewBox .title-previewBox{
-    font-size:1vw;
+    font-size:2vw;
 }
 
 .previewBox .description-previewBox{
-    font-size:0.5vw;
+    font-size:1.3vw;
 }
 
 .previewBox a {
