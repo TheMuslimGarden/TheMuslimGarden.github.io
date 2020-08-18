@@ -13,6 +13,7 @@ flower.prototype.draw = function () {
     this.flowerImg.style.top = this.y + "%";
     this.flowerImg.style.left = this.x;
     this.flowerImg.style.width = this.s;
+    this.flowerImg.style.opacity=0.05;
     this.flowerImg.style.transform = "rotate(" + this.r + "deg)";
     if (this.col === 0) {
         this.flowerImg.src = "https://themuslimgarden.github.io/images/Blue%20Flower.png";
