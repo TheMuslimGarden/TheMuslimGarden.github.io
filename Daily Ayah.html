@@ -29,7 +29,7 @@
 
 	<div id="content">
 		<h1 id='sectionTitle'>Daily Ayah</h1>
-		<p style="text-align:center; font-size:4vw;" id="Ayah"></p>
+		<p style="text-align:center; margin-left:0; font-size:4vw;" id="Ayah"></p>
 		<p style="text-align:center;" id="Ayah-Def"></p>
 	</div>
 	</div>
@@ -96,7 +96,7 @@
 		Math.random = Math.seed(random2());
 
 		$("#Ayah").text(Ayat[Math.round(Math.random(Ayat.length)*Ayat.length)].ayah);
-		$("#Ayah-def").text(Ayat[Math.round(Math.random(Ayat.length)*Ayat.length)].def);
+		$("#Ayah-Def").text(Ayat[Math.round(Math.random(Ayat.length)*Ayat.length)].def);
 
 		console.log("There  are currently "+Ayat.length+" Ayahs in the Ayat array");
 	</script>
