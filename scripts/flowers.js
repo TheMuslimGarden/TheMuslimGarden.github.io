@@ -32,8 +32,11 @@ flower.prototype.draw = function() {
 }
 ;
 var frameCount = 0;
+var Rand=0;
 var drawAllTheFlowers = function() {
     frameCount++;
+    Rand+=1;
+    Math.random=Math.seed(Rand);
     if (frameCount >= 100) {
         if (flowers.length < 30) {
             flowers.push(new flower(Math.random() * 100 + "%",Math.random() * 1000,10 + "%",Math.random() * 360,Math.random() * 3));
