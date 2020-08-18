@@ -1,13 +1,13 @@
 var flowers = [];
-var flower = function(x, y, s, r, col) {
+var flower = function (x, y, s, r, col) {
     this.flowerImg = document.createElement("img");
     this.y = y;
     this.x = x;
     this.s = s;
-    this.r = r%360;
+    this.r = r % 360;
     this.col = Math.floor(col);
 };
-flower.prototype.draw = function() {
+flower.prototype.draw = function () {
     this.y += 1;
     this.flowerImg.style.position = "fixed";
     this.flowerImg.style.top = this.y + "%";
@@ -29,17 +29,15 @@ flower.prototype.draw = function() {
         this.y = Math.random() * -50;
         this.x = Math.random() * 100 + "%";
     }
-}
-;
+};
+
 var frameCount = 0;
-var Rand=0;
-var drawAllTheFlowers = function() {
+
+var drawAllTheFlowers = function () {
     frameCount++;
-    Rand+=1;
-    Math.random=Math.seed(Rand);
     if (frameCount >= 100) {
         if (flowers.length < 30) {
-            flowers.push(new flower(Math.random() * 100 + "%",Math.random() * 1000,10 + "%",Math.random() * 360,Math.random() * 3));
+            flowers.push(new flower(Math.random() * 100 + "%", Math.random() * 1000, 10 + "%", Math.random() * 360, Math.random() * 3));
         }
         frameCount = 0;
     }
