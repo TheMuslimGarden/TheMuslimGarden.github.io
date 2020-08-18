@@ -93,10 +93,10 @@
 
 		var random1 = Math.seed(date.getDay()+date.getMonth()*30+date.getFullYear()*365);
 		var random2 = Math.seed(random1());
-		Math.random = Math.seed(random2());
+		Math.Random = Math.seed(random2());
 
-		$("#Ayah").text(Ayat[Math.round(Math.random(Ayat.length)*Ayat.length)].ayah);
-		$("#Ayah-Def").text(Ayat[Math.round(Math.random(Ayat.length)*Ayat.length)].def);
+		$("#Ayah").text(Ayat[Math.round(Math.Random(Ayat.length)*Ayat.length)].ayah);
+		$("#Ayah-Def").text(Ayat[Math.round(Math.Random(Ayat.length)*Ayat.length)].def);
 
 		console.log("There  are currently "+Ayat.length+" Ayahs in the Ayat array");
 	</script>
