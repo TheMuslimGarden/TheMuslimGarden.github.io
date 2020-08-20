@@ -110,7 +110,7 @@ p {
     color: black;
     width: 100%;
     height: 10vw;
-    border-image: url("https://docs.google.com/drawings/d/e/2PACX-1vRT3_teUwoV18h61DSo-jyBERKTG5tSNVo8-J5hRoxOeNbtK_jmXpEx2ige1ik7byNLRTQOipQxZnK8/pub?w=100&amp;h=100") 20% round;
+    border-image: url("https://docs.google.com/drawings/d/e/2PACX-1vRT3_teUwoV18h61DSo-jyBERKTG5tSNVo8-J5hRoxOeNbtK_jmXpEx2ige1ik7byNLRTQOipQxZnK8/pub?w=100&amp;h=100") 20%  0% 0% 0% round;
 }
 
 .previewBox .title-previewBox{
