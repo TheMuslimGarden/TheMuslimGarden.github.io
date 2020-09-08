@@ -136,7 +136,7 @@
 
 		var date = new Date();
 
-		var random1 = Math.seed(date.getDay() + date.getMonth() * 30 + date.getFullYear() * 365);
+		var random1 = Math.seed(date.getDay() + date.getMonth() * 31 + date.getFullYear() * 366);
 		var random2 = Math.seed(random1());
 		Math.Random = Math.seed(random2());
 
