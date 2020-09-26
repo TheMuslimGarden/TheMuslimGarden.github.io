@@ -5,6 +5,9 @@ var previewBox = function(ImgURL, Title, Description, URL) {
 };
 function drawBoxes(array) {
     for (var i = 0; i < array.length; i++) {
+        if(array[i].description===undefined){
+            array[i].description="";
+        }
         Content.innerHTML += previewBox(array[i].imgSrc, array[i].name, array[i].description, array[i].URL);
     }
 }
